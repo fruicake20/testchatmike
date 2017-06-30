@@ -1,0 +1,742 @@
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:27:35 +0800
+  Processing by MessagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'messages'):
+  app/controllers/messages_controller.rb:3:in `index'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:28:01 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.3ms)
+Rendered messages/index.html.erb within layouts/application (24.8ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3986954055252205031_32603260'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:28:13 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3986954055252205031_32603260'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:28:21 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.2ms)
+Rendered messages/index.html.erb within layouts/application (25.1ms)
+Completed 500 Internal Server Error in 56ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3026078363494022157_26714480'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:30:16 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.2ms)
+Rendered messages/index.html.erb within layouts/application (24.4ms)
+Completed 500 Internal Server Error in 54ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1976908374687145874_15240820'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:31:59 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.2ms)
+Rendered messages/index.html.erb within layouts/application (25.2ms)
+Completed 500 Internal Server Error in 56ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" , :media => "all"%>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2422533641880067277_30675840'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:00 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" , :media => "all"%>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2422533641880067277_30675840'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:00 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" , :media => "all"%>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2422533641880067277_30675840'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.6ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:00 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.2ms)
+Rendered messages/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" , :media => "all"%>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2422533641880067277_30675840'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:00 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" , :media => "all"%>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2422533641880067277_30675840'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:01 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" , :media => "all"%>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2422533641880067277_30675840'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.6ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:45 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.3ms)
+Rendered messages/index.html.erb within layouts/application (10.5ms)
+Compiled application.css  (0ms)  (pid 29335)
+Compiled messages.css  (257ms)  (pid 29335)
+Compiled application.js  (2ms)  (pid 29335)
+Compiled jquery.js  (1ms)  (pid 29335)
+Compiled jquery_ujs.js  (0ms)  (pid 29335)
+Compiled private_pub.js  (0ms)  (pid 29335)
+Compiled messages.js  (260ms)  (pid 29335)
+Completed 200 OK in 2949ms (Views: 2947.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:48 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-2a0a4f6ce1a345f82a88a6987b5f2e31.css" for 127.0.0.1 at 2017-06-23 09:32:48 +0800
+Served asset /application-2a0a4f6ce1a345f82a88a6987b5f2e31.css - 200 OK (0ms)
+
+
+Started GET "/assets/application-cb79b1d3b9b28fa91f045cb72d809ee2.js" for 127.0.0.1 at 2017-06-23 09:32:48 +0800
+Served asset /application-cb79b1d3b9b28fa91f045cb72d809ee2.js - 200 OK (0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-06-23 09:32:50 +0800
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x3YYKx20/fLCu6QchPSLZs2nltrylOrRJmJYAwkhwdU=", "message"=>{"content"=>"wa"}, "commit"=>"Send"}
+Rendered messages/_message.html.erb (0.5ms)
+Rendered messages/create.js.erb (476.8ms)
+Completed 200 OK in 1217ms (Views: 489.4ms | ActiveRecord: 24.8ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:53 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:54 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:32:55 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-06-23 09:32:58 +0800
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x3YYKx20/fLCu6QchPSLZs2nltrylOrRJmJYAwkhwdU=", "message"=>{"content"=>"zzzzzzzzzzzzzz"}, "commit"=>"Send"}
+Rendered messages/_message.html.erb (0.1ms)
+Rendered messages/create.js.erb (478.3ms)
+Completed 200 OK in 1080ms (Views: 479.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:33:00 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.5ms)
+Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:43:09 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.7ms)
+Rendered messages/index.html.erb within layouts/application (24.7ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3344455533671878677_36797040'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:43:11 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.7ms)
+Rendered messages/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3344455533671878677_36797040'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:43:11 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.9ms)
+Rendered messages/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3344455533671878677_36797040'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:43:24 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.7ms)
+Rendered messages/index.html.erb within layouts/application (11.1ms)
+Compiled application.css  (0ms)  (pid 29639)
+Compiled messages.css  (227ms)  (pid 29639)
+Compiled application.js  (2ms)  (pid 29639)
+Compiled jquery.js  (1ms)  (pid 29639)
+Compiled jquery_ujs.js  (0ms)  (pid 29639)
+Compiled private_pub.js  (0ms)  (pid 29639)
+Compiled messages.js  (287ms)  (pid 29639)
+Completed 200 OK in 2872ms (Views: 2870.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:43:27 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.6ms)
+Rendered messages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-06-23 09:43:29 +0800
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x3YYKx20/fLCu6QchPSLZs2nltrylOrRJmJYAwkhwdU=", "message"=>{"content"=>"wa"}, "commit"=>"Send"}
+Rendered messages/_message.html.erb (0.5ms)
+Rendered messages/create.js.erb (3.6ms)
+Completed 200 OK in 211ms (Views: 15.7ms | ActiveRecord: 25.3ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:43:31 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.1ms)
+Rendered messages/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2017-06-23 09:43:32 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.9ms)
+Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:49:51 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.1ms)
+Rendered messages/index.html.erb within layouts/application (23.6ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__579944466013390494_19159460'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:49:52 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.1ms)
+Rendered messages/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__579944466013390494_19159460'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:49:52 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.3ms)
+Rendered messages/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__579944466013390494_19159460'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:49:52 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.2ms)
+Rendered messages/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__579944466013390494_19159460'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/main" for 127.0.0.1 at 2017-06-30 10:50:01 +0800
+
+ActionController::RoutingError (No route matches [GET] "/main"):
+  
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:51:50 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.5ms)
+Rendered messages/index.html.erb within layouts/application (23.7ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2511275325693320377_21632400'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:51:51 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.1ms)
+Rendered messages/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2511275325693320377_21632400'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:51:52 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.1ms)
+Rendered messages/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2511275325693320377_21632400'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:51:52 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.3ms)
+Rendered messages/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    2: <html>
+    3:   <head>
+    4:     <title>Chatter</title>
+    5:     <%= stylesheet_link_tag    "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2511275325693320377_21632400'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:53:02 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.1ms)
+Rendered messages/index.html.erb within layouts/application (10.1ms)
+Compiled application.css  (18ms)  (pid 25881)
+Compiled messages.css  (247ms)  (pid 25881)
+Compiled application.js  (14ms)  (pid 25881)
+Compiled jquery.js  (13ms)  (pid 25881)
+Compiled jquery_ujs.js  (3ms)  (pid 25881)
+Compiled private_pub.js  (10ms)  (pid 25881)
+Compiled messages.js  (686ms)  (pid 25881)
+Completed 200 OK in 3407ms (Views: 3406.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-06-30 10:53:09 +0800
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eLoA74oHENbV9WUBVoF7wHGzH1nxcQPJuqv+8Croa+E=", "message"=>{"content"=>"z"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/messages_controller.rb:8:in `create'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-06-30 10:53:29 +0800
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eLoA74oHENbV9WUBVoF7wHGzH1nxcQPJuqv+8Croa+E=", "message"=>{"content"=>"zwwwwwww"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/messages_controller.rb:8:in `create'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+Compiled application.js  (2ms)  (pid 26003)
+Compiled jquery.js  (1ms)  (pid 26003)
+Compiled jquery_ujs.js  (0ms)  (pid 26003)
+Compiled private_pub.js  (0ms)  (pid 26003)
+Compiled messages.js  (211ms)  (pid 26003)
+Compiled application.css  (0ms)  (pid 26003)
+Warning. Error encountered while saving cache /home/mike/new/chatter-after/tmp/cache/sass/63c46ae279f33bb064780a2597471a7f44ddfe31/messages.css.scssc: can't dump anonymous class #<Class:0x0000000306c518>
+Compiled messages.css  (6ms)  (pid 26003)
+Compiled application.js  (2ms)  (pid 25967)
+Compiled jquery.js  (1ms)  (pid 25967)
+Compiled jquery_ujs.js  (0ms)  (pid 25967)
+Compiled private_pub.js  (0ms)  (pid 25967)
+Compiled messages.js  (233ms)  (pid 25967)
+Compiled application.css  (0ms)  (pid 25967)
+Warning. Error encountered while saving cache /home/mike/new/chatter-after/tmp/cache/sass/63c46ae279f33bb064780a2597471a7f44ddfe31/messages.css.scssc: can't dump anonymous class #<Class:0x00000003d01e68>
+Compiled messages.css  (5ms)  (pid 25967)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:55:44 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.3ms)
+Rendered messages/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-9d9f2c87d334bf678aaf5dcdaa233a37.css" for 127.0.0.1 at 2017-06-30 10:55:44 +0800
+Served asset /application-9d9f2c87d334bf678aaf5dcdaa233a37.css - 200 OK (3ms)
+
+
+Started GET "/assets/application-cb79b1d3b9b28fa91f045cb72d809ee2.js" for 127.0.0.1 at 2017-06-30 10:55:44 +0800
+Served asset /application-cb79b1d3b9b28fa91f045cb72d809ee2.js - 304 Not Modified (3ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-06-30 10:55:46 +0800
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eLoA74oHENbV9WUBVoF7wHGzH1nxcQPJuqv+8Croa+E=", "message"=>{"content"=>"zwwwwwwww"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/messages_controller.rb:8:in `create'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:55:57 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.4ms)
+Rendered messages/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-cb79b1d3b9b28fa91f045cb72d809ee2.js" for 127.0.0.1 at 2017-06-30 10:55:57 +0800
+Served asset /application-cb79b1d3b9b28fa91f045cb72d809ee2.js - 304 Not Modified (20ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:55:58 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.2ms)
+Rendered messages/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-cb79b1d3b9b28fa91f045cb72d809ee2.js" for 127.0.0.1 at 2017-06-30 10:55:58 +0800
+Served asset /application-cb79b1d3b9b28fa91f045cb72d809ee2.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:55:58 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.1ms)
+Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-cb79b1d3b9b28fa91f045cb72d809ee2.js" for 127.0.0.1 at 2017-06-30 10:55:58 +0800
+Served asset /application-cb79b1d3b9b28fa91f045cb72d809ee2.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 10:55:58 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.2ms)
+Rendered messages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-cb79b1d3b9b28fa91f045cb72d809ee2.js" for 127.0.0.1 at 2017-06-30 10:55:58 +0800
+Served asset /application-cb79b1d3b9b28fa91f045cb72d809ee2.js - 304 Not Modified (0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-06-30 10:55:59 +0800
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eLoA74oHENbV9WUBVoF7wHGzH1nxcQPJuqv+8Croa+E=", "message"=>{"content"=>"zwwwwwwww"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/messages_controller.rb:8:in `create'
+
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 11:01:47 +0800
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (2.4ms)
+Rendered messages/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-cb79b1d3b9b28fa91f045cb72d809ee2.js" for 127.0.0.1 at 2017-06-30 11:01:47 +0800
+Compiled application-cb79b1d3b9b28fa91f045cb72d809ee2.js  (2ms)  (pid 26646)
+Compiled jquery.js  (1ms)  (pid 26646)
+Compiled jquery_ujs.js  (0ms)  (pid 26646)
+Compiled private_pub.js  (0ms)  (pid 26646)
+Compiled messages.js  (279ms)  (pid 26646)
+Served asset /application-cb79b1d3b9b28fa91f045cb72d809ee2.js - 304 Not Modified (2587ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2017-06-30 11:01:53 +0800
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eLoA74oHENbV9WUBVoF7wHGzH1nxcQPJuqv+8Croa+E=", "message"=>{"content"=>"wa"}, "commit"=>"Send"}
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/create.js.erb (3.0ms)
+Completed 200 OK in 227ms (Views: 27.2ms | ActiveRecord: 4.3ms)

@@ -1,0 +1,98 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1498791707.7898242:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%043447ee2e9f19577bf4ae7a56c2b494I"logical_path;
+FI"private_pub.js;
+TI"pathname;
+FI"f/home/mike/.rvm/gems/ruby-1.9.3-p392/gems/private_pub-1.0.3/app/assets/javascripts/private_pub.js;
+TI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2017-06-21T15:57:10+08:00;
+FI"	body;
+FI"‚function buildPrivatePub(doc) {
+  var self = {
+    connecting: false,
+    fayeClient: null,
+    fayeCallbacks: [],
+    subscriptions: {},
+    subscriptionCallbacks: {},
+
+    faye: function(callback) {
+      if (self.fayeClient) {
+        callback(self.fayeClient);
+      } else {
+        self.fayeCallbacks.push(callback);
+        if (self.subscriptions.server && !self.connecting) {
+          self.connecting = true;
+          var script = doc.createElement("script");
+          script.type = "text/javascript";
+          script.src = self.subscriptions.server + ".js";
+          script.onload = self.connectToFaye;
+          doc.documentElement.appendChild(script);
+        }
+      }
+    },
+
+    connectToFaye: function() {
+      self.fayeClient = new Faye.Client(self.subscriptions.server);
+      self.fayeClient.addExtension(self.fayeExtension);
+      for (var i=0; i < self.fayeCallbacks.length; i++) {
+        self.fayeCallbacks[i](self.fayeClient);
+      };
+    },
+
+    fayeExtension: {
+      outgoing: function(message, callback) {
+        if (message.channel == "/meta/subscribe") {
+          // Attach the signature and timestamp to subscription messages
+          var subscription = self.subscriptions[message.subscription];
+          if (!message.ext) message.ext = {};
+          message.ext.private_pub_signature = subscription.signature;
+          message.ext.private_pub_timestamp = subscription.timestamp;
+        }
+        callback(message);
+      }
+    },
+
+    sign: function(options) {
+      if (!self.subscriptions.server) {
+        self.subscriptions.server = options.server;
+      }
+      self.subscriptions[options.channel] = options;
+      self.faye(function(faye) {
+        faye.subscribe(options.channel, self.handleResponse);
+      });
+    },
+
+    handleResponse: function(message) {
+      if (message.eval) {
+        eval(message.eval);
+      }
+      if (callback = self.subscriptionCallbacks[message.channel]) {
+        callback(message.data, message.channel);
+      }
+    },
+
+    subscribe: function(channel, callback) {
+      self.subscriptionCallbacks[channel] = callback;
+    }
+  };
+  return self;
+}
+
+var PrivatePub = buildPrivatePub(document);
+;
+FI"asset_paths;
+F[I"f/home/mike/.rvm/gems/ruby-1.9.3-p392/gems/private_pub-1.0.3/app/assets/javascripts/private_pub.js;
+TI"dependency_paths;
+F[{I"	path;
+FI"f/home/mike/.rvm/gems/ruby-1.9.3-p392/gems/private_pub-1.0.3/app/assets/javascripts/private_pub.js;
+TI"
+mtime;
+FIu:	Time§V€¤Ã§ä
+:@_zoneI"PHT;
+T:nano_numiU:nano_deni:submicro"4:offseti€pI"hexdigest;
+F"%7b9b6fbb33146d8c5aa727fc4efc9aabI"_version;
+F"%9e498e2eadf0be42780363370602c500

@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1498791708.070095:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%d565f0793949260803c8394849b4e328I"logical_path;
+FI"messages.js;
+TI"pathname;
+FI"4$root/app/assets/javascripts/messages.js.coffee;
+TI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2017-06-23T09:19:35+08:00;
+FI"	body;
+FI"$(function() {
+
+
+}).call(this);
+;
+TI"asset_paths;
+F[I"4$root/app/assets/javascripts/messages.js.coffee;
+TI"dependency_paths;
+F[{I"	path;
+FI"4$root/app/assets/javascripts/messages.js.coffee;
+TI"
+mtime;
+FIu:	TimeáV€˜I0N
+:@_zoneI"PHT;
+T:nano_numiN:nano_deni:submicro"„`:offseti€pI"hexdigest;
+F"%9e498e2eadf0be42780363370602c500I"_version;
+F"%9e498e2eadf0be42780363370602c500
