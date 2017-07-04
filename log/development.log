@@ -8871,3 +8871,172 @@ The error occurred while evaluating nil.+):
 Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
 Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
 Rendered /home/mike/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-07-03 09:59:54 +0000
+  Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.1ms)[0m  [1mSELECT "messages".* FROM "messages" [0m
+Rendered messages/_message.html.erb (4.3ms)
+Rendered messages/index.html.erb within layouts/application (31.5ms)
+Compiled application.js  (4ms)  (pid 3414)
+Compiled jquery.js  (4ms)  (pid 3414)
+Compiled jquery_ujs.js  (0ms)  (pid 3414)
+Compiled private_pub.js  (0ms)  (pid 3414)
+Compiled messages.js  (357ms)  (pid 3414)
+Completed 200 OK in 458ms (Views: 456.6ms | ActiveRecord: 0.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-07-03 10:00:48 +0000
+  Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.1ms)[0m  [1mSELECT "messages".* FROM "messages" [0m
+Rendered messages/_message.html.erb (2.8ms)
+Rendered messages/index.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-03 10:00:58 +0000
+  Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.1ms)[0m  SELECT "messages".* FROM "messages" 
+Rendered messages/_message.html.erb (18.4ms)
+Rendered messages/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/messages.css?body=1" for 119.92.172.200 at 2017-07-03 10:00:59 +0000
+Served asset /messages.css - 200 OK (4ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 119.92.172.200 at 2017-07-03 10:00:59 +0000
+Served asset /private_pub.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 119.92.172.200 at 2017-07-03 10:00:59 +0000
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 119.92.172.200 at 2017-07-03 10:00:59 +0000
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/messages.js?body=1" for 119.92.172.200 at 2017-07-03 10:00:59 +0000
+Served asset /messages.js - 200 OK (0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-03 10:01:01 +0000
+  Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.1ms)[0m  [1mSELECT "messages".* FROM "messages" [0m
+Rendered messages/_message.html.erb (3.4ms)
+Rendered messages/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/messages.css?body=1" for 119.92.172.200 at 2017-07-03 10:01:01 +0000
+Served asset /messages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:01 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:01 +0000
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messages.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:01 +0000
+Served asset /messages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:02 +0000
+Served asset /jquery.js - 304 Not Modified (32ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-03 10:01:04 +0000
+  Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.1ms)[0m  SELECT "messages".* FROM "messages" 
+Rendered messages/_message.html.erb (3.7ms)
+Rendered messages/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:04 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:04 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messages.css?body=1" for 119.92.172.200 at 2017-07-03 10:01:04 +0000
+Served asset /messages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messages.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:04 +0000
+Served asset /messages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:05 +0000
+Served asset /private_pub.js - 304 Not Modified (6ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-03 10:01:06 +0000
+  Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.1ms)[0m  [1mSELECT "messages".* FROM "messages" [0m
+Rendered messages/_message.html.erb (3.4ms)
+Rendered messages/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:06 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:06 +0000
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messages.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 119.92.172.200 at 2017-07-03 10:01:06 +0000
+Served asset /messages.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/messages.css?body=1" for 119.92.172.200 at 2017-07-03 10:01:06 +0000
+Served asset /messages.css - 304 Not Modified (0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2017-07-03 10:25:12 +0000
+  Processing by MessagesController#index as HTML
+  [1m[36mMessage Load (0.1ms)[0m  [1mSELECT "messages".* FROM "messages" [0m
+Rendered messages/_message.html.erb (4.2ms)
+Rendered messages/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 104ms (Views: 102.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-03 10:25:43 +0000
+  Processing by MessagesController#index as HTML
+  [1m[35mMessage Load (0.1ms)[0m  SELECT "messages".* FROM "messages" 
+Rendered messages/_message.html.erb (18.5ms)
+Rendered messages/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/messages.css?body=1" for 119.92.172.200 at 2017-07-03 10:25:44 +0000
+Served asset /messages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 119.92.172.200 at 2017-07-03 10:25:44 +0000
+Served asset /private_pub.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 119.92.172.200 at 2017-07-03 10:25:44 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 119.92.172.200 at 2017-07-03 10:25:44 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/messages.js?body=1" for 119.92.172.200 at 2017-07-03 10:25:44 +0000
+Served asset /messages.js - 304 Not Modified (0ms)
