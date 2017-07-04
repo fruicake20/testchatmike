@@ -1,0 +1,126 @@
+[ 2017-07-03 09:59:48.6914 3351/7ff99f183740 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-03 09:59:48.6940 3354/7f855f4c1740 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-03 09:59:48.6941 3354/7f855f4c1740 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-03 09:59:48.6972 3354/7f855f4c1740 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 3354
+[ 2017-07-03 09:59:48.7006 3360/7fd1936de740 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-03 09:59:48.7009 3360/7fd1936de740 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 3360
+App 3396 stdout: 
+[ 2017-07-03 09:59:51.2904 3354/7f855f3f5700 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 3396 stderr: DEPRECATION WARNING:
+App 3396 stderr: Sass 3.5 will no longer support Ruby 1.9.3.
+App 3396 stderr: Please upgrade to Ruby 2.0.0 or greater as soon as possible.
+App 3396 stderr: 
+App 3396 stderr:         SECURITY WARNING: No secret option provided to Rack::Session::Cookie.
+App 3396 stderr:         This poses a security threat. It is strongly recommended that you
+App 3396 stderr:         provide a secret to prevent exploits that may be possible from crafted
+App 3396 stderr:         cookies. This will not be supported in future versions of Rack, and
+App 3396 stderr:         future versions will even invalidate your existing user cookies.
+App 3396 stderr: 
+App 3396 stderr:         Called from: /home/ubuntu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/session/abstract_store.rb:28:in `initialize'.
+App 3396 stderr: 
+App 3414 stdout: 
+
+[ 2017-07-03 10:00:29.1728 3354/7f855d357700 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-03 10:00:29.1729 3354/7f855f4c1740 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-03 10:00:29.1729 3354/7f855f4c1740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3414, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:00:29.1729 3354/7f855cb56700 Ser/Server.h:862 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-03 10:00:29.1729 3354/7f855cb56700 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-03 10:00:29.1729 3354/7f855d357700 Ser/Server.h:862 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-03 10:00:29.1729 3354/7f855d357700 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-03 10:00:29.1730 3354/7f855f4c1740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3414, application /home/ubuntu/awsteschat/testchatmike/public (development)
+
+[ 2017-07-03 10:00:29.1789 3360/7fd191d75700 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-03 10:00:29.1790 3360/7fd1936de740 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-03 10:00:29.1790 3360/7fd191574700 Ser/Server.h:862 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-03 10:00:29.1790 3360/7fd191574700 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-03 10:00:29.1791 3360/7fd191d75700 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-03 10:00:29.1792 3360/7fd1936de740 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-03 10:00:29.4008 3354/7f855f4c1740 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
+[ 2017-07-03 10:00:43.9890 3467/7f3c1814c740 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-03 10:00:43.9918 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-03 10:00:43.9919 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-03 10:00:43.9950 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 3470
+[ 2017-07-03 10:00:43.9988 3476/7f081bf9d740 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-03 10:00:43.9992 3476/7f081bf9d740 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 3476
+App 3512 stdout: 
+[ 2017-07-03 10:00:46.5880 3470/7f16fe932700 age/Cor/SecurityUpdateChecker.h:356 ]: Security update check: no update found (next check in 24 hours)
+App 3512 stderr: DEPRECATION WARNING:
+App 3512 stderr: Sass 3.5 will no longer support Ruby 1.9.3.
+App 3512 stderr: Please upgrade to Ruby 2.0.0 or greater as soon as possible.
+App 3512 stderr: 
+App 3512 stderr:         SECURITY WARNING: No secret option provided to Rack::Session::Cookie.
+App 3512 stderr:         This poses a security threat. It is strongly recommended that you
+App 3512 stderr:         provide a secret to prevent exploits that may be possible from crafted
+App 3512 stderr:         cookies. This will not be supported in future versions of Rack, and
+App 3512 stderr:         future versions will even invalidate your existing user cookies.
+App 3512 stderr: 
+App 3512 stderr:         Called from: /home/ubuntu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/session/abstract_store.rb:28:in `initialize'.
+App 3512 stderr: 
+App 3530 stdout: 
+App 3542 stdout: 
+App 3552 stdout: 
+App 3560 stdout: 
+
+[ 2017-07-03 10:01:09.1260 3470/7f16fc894700 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-03 10:01:09.1260 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-03 10:01:09.1260 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3530, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:01:09.1260 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3542, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:01:09.1260 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3552, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:01:09.1260 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3560, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:01:09.1261 3470/7f16f7fff700 Ser/Server.h:862 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-03 10:01:09.1261 3470/7f16f7fff700 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-03 10:01:09.1261 3470/7f16fc894700 Ser/Server.h:862 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-03 10:01:09.1261 3470/7f16fc894700 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-03 10:01:09.1261 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3530, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:01:09.1261 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3542, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:01:09.1261 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3552, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:01:09.1261 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3560, application /home/ubuntu/awsteschat/testchatmike/public (development)
+
+[ 2017-07-03 10:01:09.1309 3476/7f081a634700 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-03 10:01:09.1309 3476/7f081bf9d740 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-03 10:01:09.1309 3476/7f0819e33700 Ser/Server.h:862 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-03 10:01:09.1310 3476/7f0819e33700 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-03 10:01:09.1310 3476/7f081a634700 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-03 10:01:09.1311 3476/7f081bf9d740 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-03 10:01:09.4533 3470/7f16fe9fe740 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
+[ 2017-07-03 10:25:06.6551 2104/7ff7ca07d740 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-07-03 10:25:06.6619 2107/7f13e41b9740 age/Cor/CoreMain.cpp:1080 ]: Starting Passenger core...
+[ 2017-07-03 10:25:06.6629 2107/7f13e41b9740 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-07-03 10:25:06.6780 2107/7f13e41b9740 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 2107
+[ 2017-07-03 10:25:06.6824 2115/7f26ad2f9740 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-07-03 10:25:06.6837 2115/7f26ad2f9740 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 2115
+App 2149 stdout: 
+[ 2017-07-03 10:25:09.6045 2107/7f13e40ed700 age/Cor/SecurityUpdateChecker.h:344 ]: Security update check failed: server temporarily unavailable, try again later (next check in 24 hours)
+App 2149 stderr: DEPRECATION WARNING:
+App 2149 stderr: Sass 3.5 will no longer support Ruby 1.9.3.
+App 2149 stderr: Please upgrade to Ruby 2.0.0 or greater as soon as possible.
+App 2149 stderr: 
+App 2149 stderr:         SECURITY WARNING: No secret option provided to Rack::Session::Cookie.
+App 2149 stderr:         This poses a security threat. It is strongly recommended that you
+App 2149 stderr:         provide a secret to prevent exploits that may be possible from crafted
+App 2149 stderr:         cookies. This will not be supported in future versions of Rack, and
+App 2149 stderr:         future versions will even invalidate your existing user cookies.
+App 2149 stderr: 
+App 2149 stderr:         Called from: /home/ubuntu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.1.3/lib/action_dispatch/middleware/session/abstract_store.rb:28:in `initialize'.
+App 2149 stderr: 
+App 2167 stdout: 
+App 2187 stdout: 
+
+[ 2017-07-03 10:25:48.2001 2107/7f13e204f700 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-03 10:25:48.2001 2107/7f13e41b9740 age/Cor/CoreMain.cpp:999 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-03 10:25:48.2001 2107/7f13e41b9740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 2167, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:25:48.2001 2107/7f13e41b9740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 2187, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:25:48.2002 2107/7f13e204f700 Ser/Server.h:862 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-07-03 10:25:48.2002 2107/7f13e204f700 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-07-03 10:25:48.2002 2107/7f13e184e700 Ser/Server.h:862 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-07-03 10:25:48.2002 2107/7f13e184e700 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-07-03 10:25:48.2003 2107/7f13e41b9740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 2167, application /home/ubuntu/awsteschat/testchatmike/public (development)
+[ 2017-07-03 10:25:48.2003 2107/7f13e41b9740 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 2187, application /home/ubuntu/awsteschat/testchatmike/public (development)
+
+[ 2017-07-03 10:25:48.2042 2115/7f26ab990700 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-07-03 10:25:48.2043 2115/7f26ad2f9740 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-07-03 10:25:48.2043 2115/7f26ab18f700 Ser/Server.h:862 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-07-03 10:25:48.2043 2115/7f26ab18f700 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-07-03 10:25:48.2044 2115/7f26ab990700 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-07-03 10:25:48.2044 2115/7f26ad2f9740 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-07-03 10:25:48.4296 2107/7f13e41b9740 age/Cor/CoreMain.cpp:1065 ]: Passenger core shutdown finished
