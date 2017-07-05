@@ -1132,3 +1132,431 @@ Started GET "/" for 119.92.172.200 at 2017-07-04 04:20:55 +0000
 Rendered messages/_message.html.erb (1.1ms)
 Rendered messages/index.html.erb within layouts/application (1.9ms)
 Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 04:57:05 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 04:59:16 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:01:36 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:01:39 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-04 05:01:52 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (67.0ms)
+Completed 500 Internal Server Error in 102ms
+
+ActionView::Template::Error (undefined local variable or method `create_username_path' for #<#<Class:0x000000047d5a38>:0x007f75fc1c2798>):
+    1: <div style="text-align: center">
+    2:   <%= form_tag create_username_path do |f| %>
+    3:     <%= label_tag :username %>
+    4:     <%= text_field_tag :username %>
+    5:     <%= submit_tag "Enter" %>
+  app/views/messages/login.html.erb:2:in `_app_views_messages_login_html_erb___1137827906625360454_70072358820480'
+
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-04 05:02:04 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (35.8ms)
+Completed 500 Internal Server Error in 82ms
+
+ActionView::Template::Error (undefined local variable or method `create_username_path' for #<#<Class:0x000000047d5a38>:0x00000003487878>):
+    1: <div style="text-align: center">
+    2:   <%= form_tag create_username_path do |f| %>
+    3:     <%= label_tag :username %>
+    4:     <%= text_field_tag :username %>
+    5:     <%= submit_tag "Enter" %>
+  app/views/messages/login.html.erb:2:in `_app_views_messages_login_html_erb___1137827906625360454_70072358820480'
+
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-04 05:02:06 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (46.9ms)
+Completed 500 Internal Server Error in 81ms
+
+ActionView::Template::Error (undefined local variable or method `create_username_path' for #<#<Class:0x000000047d5a38>:0x00000004e8f928>):
+    1: <div style="text-align: center">
+    2:   <%= form_tag create_username_path do |f| %>
+    3:     <%= label_tag :username %>
+    4:     <%= text_field_tag :username %>
+    5:     <%= submit_tag "Enter" %>
+  app/views/messages/login.html.erb:2:in `_app_views_messages_login_html_erb___1137827906625360454_70072358820480'
+
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:02:12 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/messages" for 119.92.172.200 at 2017-07-04 05:02:15 +0000
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oWzgEhkwx+B+IQaLQsppd+GQVzhsC+RNxrj9oqiE6VI=", "message"=>{"content"=>"wa"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::StatementInvalid (SQLite3::ReadOnlyException: attempt to write a readonly database: INSERT INTO "messages" ("content", "created_at", "updated_at") VALUES (?, ?, ?)):
+  app/controllers/messages_controller.rb:10:in `create'
+
+
+
+Started POST "/messages" for 119.92.172.200 at 2017-07-04 05:02:18 +0000
+  Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oWzgEhkwx+B+IQaLQsppd+GQVzhsC+RNxrj9oqiE6VI=", "message"=>{"content"=>"wa"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (SQLite3::ReadOnlyException: attempt to write a readonly database: INSERT INTO "messages" ("content", "created_at", "updated_at") VALUES (?, ?, ?)):
+  app/controllers/messages_controller.rb:10:in `create'
+
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:05:29 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-04 05:05:32 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (46.5ms)
+Completed 500 Internal Server Error in 80ms
+
+ActionView::Template::Error (undefined local variable or method `create_username_path' for #<#<Class:0x000000047d5a38>:0x007f75fc0de688>):
+    1: <div style="text-align: center">
+    2:   <%= form_tag create_username_path do |f| %>
+    3:     <%= label_tag :username %>
+    4:     <%= text_field_tag :username %>
+    5:     <%= submit_tag "Enter" %>
+  app/views/messages/login.html.erb:2:in `_app_views_messages_login_html_erb___1137827906625360454_70072358820480'
+
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:05:40 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.4ms)
+Rendered messages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:07:04 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (0.3ms)
+Rendered messages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-04 05:07:08 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (46.8ms)
+Completed 500 Internal Server Error in 82ms
+
+ActionView::Template::Error (undefined local variable or method `create_username_path' for #<#<Class:0x000000047d5a38>:0x007f75fc1f2290>):
+    1: <div style="text-align: center">
+    2:   <%= form_tag create_username_path do |f| %>
+    3:     <%= label_tag :username %>
+    4:     <%= text_field_tag :username %>
+    5:     <%= submit_tag "Enter" %>
+  app/views/messages/login.html.erb:2:in `_app_views_messages_login_html_erb___1137827906625360454_70072358820480'
+
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-04 05:08:16 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 119.92.172.200 at 2017-07-04 05:08:36 +0000
+  Processing by MessagesController#index as HTML
+Rendered messages/_message.html.erb (1.7ms)
+Rendered messages/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages" for 119.92.172.200 at 2017-07-04 05:08:52 +0000
+  Processing by MessagesController#index as HTML
+Rendered collection (0.0ms)
+Rendered messages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:08:55 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:20:08 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_username" for 119.92.172.200 at 2017-07-04 05:20:16 +0000
+  Processing by MessagesController#create_username as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fayN09Jzyu7xs10swSbQffO2zo81fA62y0nhmBXnLm4=", "username"=>"yeahz", "commit"=>"Enter"}
+Redirected to http://fruitcake20.info/messages
+Completed 302 Found in 0ms
+
+
+Started GET "/messages" for 119.92.172.200 at 2017-07-04 05:20:16 +0000
+  Processing by MessagesController#index as HTML
+Rendered collection (0.0ms)
+Rendered messages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 05:20:33 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 07:38:39 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 08:51:19 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 08:51:40 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 08:51:42 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 09:15:10 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-04 09:15:12 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 66.249.69.39 at 2017-07-04 09:21:45 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 54.146.39.185 at 2017-07-04 18:22:30 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 69.58.178.59 at 2017-07-05 01:37:32 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 27.151.73.219 at 2017-07-05 02:33:24 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 03:27:06 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 06:06:51 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 06:06:55 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 06:07:49 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 06:08:31 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 06:09:37 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 07:27:40 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_username" for 119.92.172.200 at 2017-07-05 07:28:02 +0000
+  Processing by MessagesController#create_username as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zGBYvjje/aH6DDrEDBvtQy3zvLl5vmCKeITxm9Ski/g=", "username"=>"therocker", "commit"=>"Enter"}
+Redirected to http://dev.fruitcake20.info/messages
+Completed 302 Found in 1ms
+
+
+Started GET "/messages" for 119.92.172.200 at 2017-07-05 07:28:03 +0000
+  Processing by MessagesController#index as HTML
+Rendered collection (0.0ms)
+Rendered messages/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages" for 119.92.172.200 at 2017-07-05 07:28:04 +0000
+  Processing by MessagesController#index as HTML
+Rendered collection (0.0ms)
+Rendered messages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 07:28:15 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 119.92.172.200 at 2017-07-05 07:28:21 +0000
+  Processing by MessagesController#index as HTML
+Redirected to http://fruitcake20.info/login
+Completed 302 Found in 0ms
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-05 07:28:21 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-05 08:47:30 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-05 08:47:55 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-05 08:57:37 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-05 09:42:09 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 119.92.172.200 at 2017-07-05 09:42:24 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Compiled application.js  (2ms)  (pid 14280)
+Compiled jquery.js  (2ms)  (pid 14280)
+Compiled jquery_ujs.js  (0ms)  (pid 14280)
+Compiled private_pub.js  (0ms)  (pid 14280)
+Compiled messages.js  (237ms)  (pid 14280)
+Compiled application.css  (0ms)  (pid 14280)
+Warning. Error encountered while saving cache /home/ubuntu/awsteschat/testchatmike/tmp/cache/sass/f5d7f0ad0e81690825a632afe1962eac4ec368cf/messages.css.scssc: can't dump anonymous class #<Class:0x00000004fb0b68>
+Compiled messages.css  (5ms)  (pid 14280)
+Compiled application.js  (2ms)  (pid 14251)
+Compiled jquery.js  (4ms)  (pid 14251)
+Compiled jquery_ujs.js  (0ms)  (pid 14251)
+Compiled private_pub.js  (0ms)  (pid 14251)
+Compiled messages.js  (366ms)  (pid 14251)
+Compiled application.css  (0ms)  (pid 14251)
+Warning. Error encountered while saving cache /home/ubuntu/awsteschat/testchatmike/tmp/cache/sass/f5d7f0ad0e81690825a632afe1962eac4ec368cf/messages.css.scssc: can't dump anonymous class #<Class:0x00000003b33d70>
+Compiled messages.css  (5ms)  (pid 14251)
+Compiled application.js  (2ms)  (pid 14346)
+Compiled jquery.js  (1ms)  (pid 14346)
+Compiled jquery_ujs.js  (0ms)  (pid 14346)
+Compiled private_pub.js  (0ms)  (pid 14346)
+Compiled messages.js  (238ms)  (pid 14346)
+Compiled application.css  (0ms)  (pid 14346)
+Warning. Error encountered while saving cache /home/ubuntu/awsteschat/testchatmike/tmp/cache/sass/f5d7f0ad0e81690825a632afe1962eac4ec368cf/messages.css.scssc: can't dump anonymous class #<Class:0x000000033ee6a0>
+Compiled messages.css  (5ms)  (pid 14346)
+Compiled application.js  (1ms)  (pid 14317)
+Compiled jquery.js  (1ms)  (pid 14317)
+Compiled jquery_ujs.js  (0ms)  (pid 14317)
+Compiled private_pub.js  (0ms)  (pid 14317)
+Compiled messages.js  (240ms)  (pid 14317)
+Compiled application.css  (0ms)  (pid 14317)
+Warning. Error encountered while saving cache /home/ubuntu/awsteschat/testchatmike/tmp/cache/sass/f5d7f0ad0e81690825a632afe1962eac4ec368cf/messages.css.scssc: can't dump anonymous class #<Class:0x000000034d2b70>
+Compiled messages.css  (5ms)  (pid 14317)
+Compiled application.js  (2ms)  (pid 14494)
+Compiled jquery.js  (1ms)  (pid 14494)
+Compiled jquery_ujs.js  (0ms)  (pid 14494)
+Compiled private_pub.js  (0ms)  (pid 14494)
+Compiled messages.js  (238ms)  (pid 14494)
+Compiled application.css  (0ms)  (pid 14494)
+Warning. Error encountered while saving cache /home/ubuntu/awsteschat/testchatmike/tmp/cache/sass/f5d7f0ad0e81690825a632afe1962eac4ec368cf/messages.css.scssc: can't dump anonymous class #<Class:0x000000032c5b20>
+Compiled messages.css  (5ms)  (pid 14494)
+Compiled application.js  (2ms)  (pid 14465)
+Compiled jquery.js  (1ms)  (pid 14465)
+Compiled jquery_ujs.js  (0ms)  (pid 14465)
+Compiled private_pub.js  (0ms)  (pid 14465)
+Compiled messages.js  (238ms)  (pid 14465)
+Compiled application.css  (0ms)  (pid 14465)
+Warning. Error encountered while saving cache /home/ubuntu/awsteschat/testchatmike/tmp/cache/sass/f5d7f0ad0e81690825a632afe1962eac4ec368cf/messages.css.scssc: can't dump anonymous class #<Class:0x00000003731dd0>
+Compiled messages.css  (5ms)  (pid 14465)
+
+
+Started GET "/" for 119.92.172.200 at 2017-07-05 10:26:47 +0000
+  Processing by MessagesController#login as HTML
+Rendered messages/login.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
