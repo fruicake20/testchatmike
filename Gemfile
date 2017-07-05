@@ -13,7 +13,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'passenger'
+#gem 'passenger'
 gem 'faye'
 gem 'thin'
 gem 'private_pub'
