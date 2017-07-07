@@ -8,7 +8,15 @@
 
 <%= form_for Message.new, remote: true do |f| %>
   <%= f.text_field :content %>
-  <%= f.submit "Send" %>
+  <%= f.submit "Send", :id => "add" %>
 <% end %>
 
 <%= subscribe_to "/messages/new" %>
+
+
+
+<script>
+
+
+
+</script>
