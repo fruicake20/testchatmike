@@ -32,7 +32,7 @@ class MessagesController < ApplicationController
   def create_username
 
 
-     if !params[:username].blank?# && verify_recaptcha()
+     if !params[:username].blank? && verify_recaptcha()
 
        redirect_to(:action => 'index')
        session[:username] = params[:username]
